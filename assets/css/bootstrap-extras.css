@@ -43,3 +43,25 @@
 	text-decoration: none;
 	color: #7AAAA7;
 }
+
+.well-box{
+	padding: 20px;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.well-box h4{
+	color: #7C7873;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.well-box h5{
+	color: #F0B838;
+	font-style: italic;
+}
+
+.large{
+	padding: 20px 0;
+}
