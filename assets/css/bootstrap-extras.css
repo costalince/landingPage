@@ -20,3 +20,26 @@
 	color: #999;
 	margin-top: 15px;
 }
+
+.main-link {
+	padding-bottom: 30px;
+    padding-top: 25px;
+}
+
+.main-link a{
+	font-weight: bold;
+	color: #579A9A;
+	border-top: 2px solid #CBCBCB;
+	padding: 15px 10px;
+}
+
+.main-link a:after{
+	content: "»";
+    font-size: 1.2em;
+    margin-left: 8px;
+}
+
+.main-link a:hover{
+	text-decoration: none;
+	color: #7AAAA7;
+}
