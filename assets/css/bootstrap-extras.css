@@ -65,3 +65,19 @@
 .large{
 	padding: 20px 0;
 }
+
+.advantages{
+	margin-top: 50px;
+}
+
+.advantages h5{
+	color: #7C7873;
+	font-size: 1em;
+	font-weight: bold;
+	padding: 15px 0;
+}
+
+.advantages p{
+	color: #9B9B9B;
+	text-align: justify;
+}
