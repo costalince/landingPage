@@ -44,22 +44,29 @@
 	color: #7AAAA7;
 }
 
-.well-box{
+.team{
 	padding: 20px;
-    border: none;
-    border-radius: 0;
-    box-shadow: none;
+    background-color: #F8F8F8;
 }
 
-.well-box h4{
+.team h4{
 	color: #7C7873;
 	font-size: 1em;
 	font-weight: bold;
 }
 
-.well-box h5{
+.team h5{
 	color: #F0B838;
 	font-style: italic;
+}
+
+.team img,
+.photos img{
+	margin: auto;
+}
+
+.photos img{
+	margin-bottom: 40px;
 }
 
 .large{
@@ -106,7 +113,7 @@
 
 .jobs li{
 	list-style: none;
-	margin-bottom: 12px;
+	margin-bottom: 15px;
 	font-size: 1.2em;
 }
 
@@ -117,4 +124,10 @@
 .jobs span{
 	color: #9B9B9B;
 	float: right;
+}
+@media (max-width: 767px) {
+	.jobs span{
+		float: none;
+		display: block;
+	}
 }
